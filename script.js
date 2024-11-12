@@ -32,7 +32,7 @@ function sendMessage() {
     userInput.value = "";
 
     // Vérifie si le message contient un gros mot
-    const containsBannedWord = bannedWords.some(word => 
+    const containsBannedWord = bannedWords.some(word =>
         userMessage.toLowerCase().includes(word)
     );
 
